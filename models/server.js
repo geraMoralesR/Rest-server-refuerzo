@@ -19,7 +19,7 @@ class Server {
         //CORS
         this.app.use(cors());
 
-        //lectura y parseo del body -- Nos permite resibir lo que manden del frontend en json
+        //lectura y parseo del body -- Nos permite recibir lo que manden del frontend en json
         this.app.use(express.json());
 
         //Directorio publico
